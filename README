@@ -1,0 +1,5 @@
+- Download https://sourceforge.net/projects/hsqldb/files/latest/download
+- Start DB from hsqldb-folder "data" via commandline: java -cp ../lib/hsqldb.jar org.hsqldb.server.Server --database.0 file:db0file --dbname.0 db0name
+- Run ...\hsqldb-2.4.1\hsqldb\bin\runManagerSwing.bat and choose type "HSQL Database Engine Server", click ok and create Customers entity according the given class
+- Configure application.properties by setting the previously selected dbname.0
+- Run JUnit CustomerRepositoryTest and check the table
